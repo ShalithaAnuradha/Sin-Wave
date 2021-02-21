@@ -12,11 +12,13 @@ function Sin(){
     if(up==false){
         step+=1;
         boxElement.style.top=500+step+'px';
+        x_direction+=0.8;
         boxElement.style.left=x_direction+'px';
     }
     else{
         step-=1;
         boxElement.style.top=500+step+'px';
+        x_direction+=0.8;
         boxElement.style.left=x_direction+'px';
     }
     if(boxElement.style.top>="700px" ){
